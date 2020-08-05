@@ -1,0 +1,25 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include<iostream>
+using namespace std;
+int main()
+{
+    double pi,radius,area,circumference;
+    pi=3.14;
+    cout <<"enter the value of radius:";
+    cin >> radius;
+    area =pi *(radius*radius);
+    circumference=2*pi*radius;
+    cout << "the  area of the circle is" << area << "and the value of circumference is" << circumference << '.'<< endl;
+    system("pause");
+}
+    
+
+
+
